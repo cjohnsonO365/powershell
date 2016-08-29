@@ -21,13 +21,13 @@
 #=======================================
 #===========ADD TEAMS BELOW=============
 #=======================================
-$PSCBlue = $("Shil Patel", "Mark Roden", "Brad Balassaitis", "Hit Mistry", "John Head","Tony Fremarek", "Ramy Farag", "Alex Zakhodin", "Amit Bhatia", "Chris Johnson")
-$PSCGold = $("Steve Cancelli", "Rod Cortez", "Jake Chappell", "Gerald Green", "Shean McManus","Ken Lamey", "Jason Benes", "Craig Jahnke", "Jon Baker", "Cole Francis")
+$teams = $("Bears", "Packers", "Lions", "Vikings", 
+    "Cowboys", "Redskins", "Eagles", "Giants", 
+    "Falcons", "Buccaneers", "Saints", "Panthers", 
+    "Rams", "Seahawks", "49ers", "Cardinals")
 #=======================================
 #=======================================
 #=======================================
 
 Clear-Host
-WriteDraftOrder -leagueName "PSC Blue" -teams $PSCBlue
-WriteDraftOrder -leagueName "PSC Gold" -teams $PSCGold
-
+WriteDraftOrder -leagueName "NFC North" -teams $teams
